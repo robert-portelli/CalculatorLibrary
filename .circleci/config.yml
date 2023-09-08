@@ -13,14 +13,14 @@ jobs:
       # Step 2: create virtual env and install dependencies
       - run:
         name: install dependencies
-        command:
+        command: |
           python3 -m venv venv
           . venv/bin/actiavate
           pip install -r requirements.txt
       # Step 3: run linter and tests
       - run:
         name: run tests
-        command:
+        command: |
           . venv/bin/activate
           flake8 --exclude=venv* --statistics
           pytest -v --cov=calculator
