@@ -11,16 +11,14 @@ jobs:
       # Step 1: obtain repo from GitHub
       - checkout
       # Step 2: create virtual env and install dependencies
-      - run:
-        name: install dependencies
+      - run: echo "this is the build job"
         command: |
           python3 -m venv venv
           . venv/bin/activate
           pip install -r requirements.txt
       # Step 3: run linter and tests
-      - run:
-          name: run tests
-          command: |
-            . venv/bin/activate
-            flake8 --exclude=venv* --statistics
-            pytest -v --cov=calculator
+      - run: echo " this is the test job"
+        command: |
+          . venv/bin/activate
+          flake8 --exclude=venv* --statistics
+          pytest -v --cov=calculator
