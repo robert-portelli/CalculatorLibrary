@@ -12,5 +12,5 @@ def subtract(first_term, second_term):
     return first_term - second_term
 
 
-def multiplication(*args):
-    return int(arg * arg for arg in args)
+def multiplication(arg_1, arg_2):
+    return arg_1 * arg_2
