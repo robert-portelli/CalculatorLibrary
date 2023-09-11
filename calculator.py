@@ -15,5 +15,6 @@ def subtract(first_term, second_term):
 def multiplication(arg_1, arg_2):
     return arg_1 * arg_2
 
+
 def division(arg_1, arg_2):
     return arg_1 / arg_2
