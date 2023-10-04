@@ -66,21 +66,21 @@
 
 
 
-  <meta name="route-pattern" content="/:user_id/:repository">
+  <meta name="route-pattern" content="/:user_id/:repository/blob/*name(/*path)">
 
     
   <meta name="current-catalog-service-hash" content="82c569b93da5c18ed649ebd4c2c79437db4611a6a1373e805a3cb001c64130b7">
 
 
-  <meta name="request-id" content="C07E:4A74:1E67C3:2C8ACE:651D999B" data-pjax-transient="true"/><meta name="html-safe-nonce" content="a2c25d7ec9205e5e3cfa9d39b7bf5b1a1b807aa7ad0dea4265fc3558a5c84689" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDMDdFOjRBNzQ6MUU2N0MzOjJDOEFDRTo2NTFEOTk5QiIsInZpc2l0b3JfaWQiOiIyMTg5MDQ3MDA1OTk3NTM3NjkxIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="6f6fe947c7d63734f370ac1c34debc74f2b54a0ba2a75fd6dcc0d5a8716fb16b" data-pjax-transient="true"/>
+  <meta name="request-id" content="943E:11F8:2A2DE7:3D8E88:651D9A41" data-pjax-transient="true"/><meta name="html-safe-nonce" content="e0f77ae3d1365b1263a25323bdcbf8d1c0c36b4f80648ff24f0129e7ac2d047e" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI5NDNFOjExRjg6MkEyREU3OjNEOEU4ODo2NTFEOUE0MSIsInZpc2l0b3JfaWQiOiI4OTU4NDk5NjAxNTIwNjMwMzM3IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="9f23e94e9f31236070db4c175cb50ad5ccdd38e1e76ec02c0cc8dfa7f1b8d5ec" data-pjax-transient="true"/>
 
 
 
 
-  <meta name="github-keyboard-shortcuts" content="" data-turbo-transient="true" />
+  <meta name="github-keyboard-shortcuts" content="source-code,file-tree" data-turbo-transient="true" />
   
 
-  <meta name="selected-link" value="/robert-portelli3/.gitignore" data-turbo-transient>
+  <meta name="selected-link" value="/robert-portelli3/.gitignore/blob/main/.gitignore" data-turbo-transient>
   <link rel="assets" href="https://github.githubassets.com/">
 
     <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
@@ -110,7 +110,7 @@
       <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
-    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/robert-portelli3/.gitignore" />
+    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/robert-portelli3/.gitignore/blob/main/.gitignore" />
       <meta property="og:url" content="https://github.com">
       <meta property="og:site_name" content="GitHub">
       <meta property="og:title" content="Build software better, together">
@@ -217,9 +217,9 @@
       </a>
 
         <div class="flex-1">
-          <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Frobert-portelli3%2F.gitignore&amp;source=header"
+          <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Frobert-portelli3%2F.gitignore%2Fblob%2Fmain%2F.gitignore&amp;source=header"
             class="d-inline-block d-lg-none flex-order-1 f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/robert-portelli3/.gitignore&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="eebfaecec7098c87736a09d7239aae346e7b11236b4b0bb494f62c92f0205082"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/robert-portelli3/.gitignore/blob/main/.gitignore&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f1a430b94bfca2fecae4cb7ea11cc33c3d9217a50010e1e3e4c9fe079e8668b9"
           >
             Sign&nbsp;up
           </a>
@@ -594,7 +594,7 @@
                 
 
 
-<qbsearch-input class="search-input" data-scope="owner:robert-portelli3" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="N-nq_UAMp8ZBBqZdJBN3hd-bjM1Ia5Gquer2ys-RYt3HF-Nh5MxtXsZ55O7FIMxhsHNefxuAy9rJFd2oZ-s-ow" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="" data-current-org="" data-current-owner="" data-logged-in="false">
+<qbsearch-input class="search-input" data-scope="owner:robert-portelli3" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="oiLmdDc3ZVEirt1FrZb6bpDPa9oh2kWL9X2ikRLaACZRiKslyVDDB3Ux2OpPRAEtblnXSu9b7mUjDTbyG3d-0w" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="" data-current-org="" data-current-owner="" data-logged-in="false">
   <div
     class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center mr-4 rounded"
     data-action="click:qbsearch-input#searchInputContainerClicked"
@@ -656,7 +656,7 @@
           ></div>
           <div class="QueryBuilder-InputWrapper">
             <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
-            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-d95b0264-dcda-4297-b5a1-9858a771960f" data-target="query-builder.input" data-action="
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-1a40d19b-86b7-4a14-b764-63e372a52572" data-target="query-builder.input" data-action="
           input:query-builder#inputChange
           blur:query-builder#inputBlur
           keydown:query-builder#inputKeydown
@@ -762,7 +762,7 @@
                   id="query-builder-test-results"
                 ></ul>
         </div>
-      <div class="FormControl-inlineValidation" id="validation-d95b0264-dcda-4297-b5a1-9858a771960f" hidden="hidden">
+      <div class="FormControl-inlineValidation" id="validation-1a40d19b-86b7-4a14-b764-63e372a52572" hidden="hidden">
         <span class="FormControl-inlineValidation--visual">
           <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
     <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
@@ -802,7 +802,7 @@
     </div>
   </div>
 </div>
-      <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="w6brLmqO3xCY0/oRZQ6j8xz4RGpJ2KgAdVhsROx/SSYk07yJ/ttKbRhIsDiFbr3CCIwmQckdmsvq0i/AX0AMIw==" />
+      <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="abJv8mI0A6TImmK7aYvUYoymNqtN9gji6NQjoL2sW8qwUuqggrELddViV8Xy3ZGOqBivs8daw/G0EcANGins6A==" />
           <p>We read every piece of feedback, and take your input very seriously.</p>
           <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
           <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
@@ -837,7 +837,7 @@
       <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
         <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="novbRbXV14tMPqjR5WVsiUNVanOGtPPWsTewKQ2s6akbxZa1/Dusdmi04YmsVtCjLATegoYZ4vmBDIFcJiaCbg==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="4INByE3MuQgHO4LiWr4cN6BkoL4eBLkCRCHZSmmoDsLSlwqZeK9QodtIX1UJn+EYAViMOXvq/YMp6476Xs/ejQ==" />
           <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
           <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
@@ -855,7 +855,7 @@
                 placeholder="github-ruby"
                 required
                 maxlength="50">
-              <input type="hidden" data-csrf="true" value="BeUaaz2EQTDaBwftylQ9Rfa5JUPyE5CnQNvohHpy1Wm0675et4H6kFWetgBtLY1lf8eiIArTbh8cYGHtRBXLRw==" />
+              <input type="hidden" data-csrf="true" value="NY+yV4uFa23wUmYF4p8UmMt++S+n7p09qBk/rAPRlCkD8dPHmC80Ht9Ud7431XkCaf9gAFQg1uVBR6+rxDxaAA==" />
             </auto-check>
           </div>
 
@@ -891,13 +891,13 @@
 </modal-dialog></div>
     </custom-scopes>
   </div>
-</qbsearch-input><input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="fUuvaaLeYDXLtgx3f4pSqGy12gG2xiaR0B+XAeEPJZIz22qxt7BQ0KaXSHjRaBIJbbkF1EtS2xzNeLAcm/2gkA==" />
+</qbsearch-input><input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="OCnZnZItPqqdT+vrdyg0Qtc4J22VAbwQKuh0Jt4mMjQgRKX2h42X6ambvP6srFYWbEDe8NuwYBItEjB/AlKxUA==" />
 
 
           <div class="position-relative mr-lg-3 d-lg-inline-block">
-            <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Frobert-portelli3%2F.gitignore"
+            <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Frobert-portelli3%2F.gitignore%2Fblob%2Fmain%2F.gitignore"
               class="HeaderMenu-link HeaderMenu-link--sign-in flex-shrink-0 no-underline d-block d-lg-inline-block border border-lg-0 rounded rounded-lg-0 p-2 p-lg-0"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/robert-portelli3/.gitignore&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1d4dbdaa7831cbc602e05771cb3bf6085052b7a24ab6a7ea5a1aac04fa9625fb"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/robert-portelli3/.gitignore/blob/main/.gitignore&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f3d03f4f94770803f2077d752996e746319ef152bcb62b2f232e4c45a8e50fb3"
               data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
               Sign in
             </a>
@@ -905,7 +905,7 @@
   <div style="width: 300px" data-view-component="true" class="Popover-message Box Popover-message--top-right color-fg-default p-4 mt-2 mx-auto text-left color-shadow-large">
     <h4 data-view-component="true" class="color-fg-default mb-2">                  Sign in to GitHub
 </h4>
-                      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="1bj8maVFgvrgoHYqwfF1X1k/00kNSsmtptIC0gFoeACMq+dhOz134LIknwOcVlygFqcJEBNm5Nr0iiB7PXUi/w==" />  <label for="login_field">
+                      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="wlHvWTMAiNMLqNpowxoPcFXwJFNKSKtuBpKoBqa0HiJ1HRUh8s25SrRPdwK7Ax7bYJWqfWbVb9Fj4CmclIucqg==" />  <label for="login_field">
     Username or email address
   </label>
   <input type="text" name="login" id="login_field" class="form-control input-block js-login-field" autocapitalize="off" autocorrect="off" autocomplete="username" autofocus="autofocus" />
@@ -921,20 +921,20 @@
 <input type="hidden" class="js-support" name="javascript-support" value="unknown">
 <input type="hidden" class="js-webauthn-support" name="webauthn-support" value="unknown">
 <input type="hidden" class="js-webauthn-iuvpaa-support" name="webauthn-iuvpaa-support" value="unknown">
-<input type="hidden" name="return_to" id="return_to" value="https://github.com/robert-portelli3/.gitignore" autocomplete="off" class="form-control" />
+<input type="hidden" name="return_to" id="return_to" value="https://github.com/robert-portelli3/.gitignore/blob/main/.gitignore" autocomplete="off" class="form-control" />
 <input type="hidden" name="allow_signup" id="allow_signup" autocomplete="off" class="form-control" />
 <input type="hidden" name="client_id" id="client_id" autocomplete="off" class="form-control" />
 <input type="hidden" name="integration" id="integration" autocomplete="off" class="form-control" />
-<input class="form-control" type="text" name="required_field_51a4" hidden="hidden" />
-<input class="form-control" type="hidden" name="timestamp" value="1696438683711" />
-<input class="form-control" type="hidden" name="timestamp_secret" value="0b9a211782691d69e0cd13a8da35514b76f031861155ffce94b525426d39df14" />
+<input class="form-control" type="text" name="required_field_0cef" hidden="hidden" />
+<input class="form-control" type="hidden" name="timestamp" value="1696438849576" />
+<input class="form-control" type="hidden" name="timestamp_secret" value="2bad2a85ea7840ae6c54d6e440d8089712f60fbe778bc57f3828fdb9a07a8ee4" />
 
 
     <input type="submit" name="commit" value="Sign in" class="btn btn-primary btn-block js-sign-in-button" data-disable-with="Signing in…" data-signin-label="Sign in" data-sso-label="Sign in with your identity provider" development="false" disable-emu-sso="false" />
   </div>
 </form>  <webauthn-status class="js-webauthn-login-emu-control">
         <div data-target="webauthn-status.partial" class="d-flex flex-justify-between flex-column mt-3 mb-0" hidden>
-            <a href="/login?passkey=true&amp;return_to=https%3A%2F%2Fgithub.com%2Frobert-portelli3%2F.gitignore" data-analytics-event="{&quot;category&quot;:&quot;passkey_404_login&quot;,&quot;action&quot;:&quot;clicked&quot;,&quot;label&quot;:null}" data-view-component="true" class="Button--link Button--medium Button">    <span class="Button-content">
+            <a href="/login?passkey=true&amp;return_to=https%3A%2F%2Fgithub.com%2Frobert-portelli3%2F.gitignore%2Fblob%2Fmain%2F.gitignore" data-analytics-event="{&quot;category&quot;:&quot;passkey_404_login&quot;,&quot;action&quot;:&quot;clicked&quot;,&quot;label&quot;:null}" data-view-component="true" class="Button--link Button--medium Button">    <span class="Button-content">
       <span class="Button-label">or sign in with a passkey</span>
     </span>
 </a>  
@@ -944,10 +944,10 @@
 
 </div></div>          </div>
 
-            <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Frobert-portelli3%2F.gitignore&amp;source=header"
+            <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Frobert-portelli3%2F.gitignore%2Fblob%2Fmain%2F.gitignore&amp;source=header"
               class="HeaderMenu-link HeaderMenu-link--sign-up flex-shrink-0 d-none d-lg-inline-block no-underline border color-border-default rounded px-2 py-1"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/robert-portelli3/.gitignore&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1d4dbdaa7831cbc602e05771cb3bf6085052b7a24ab6a7ea5a1aac04fa9625fb"
-              data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/robert-portelli3/.gitignore;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/robert-portelli3/.gitignore/blob/main/.gitignore&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f3d03f4f94770803f2077d752996e746319ef152bcb62b2f232e4c45a8e50fb3"
+              data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/robert-portelli3/.gitignore/blob/main/.gitignore;ref_cta:Sign up;ref_loc:header logged out&quot;}"
             >
               Sign up
             </a>
@@ -967,10 +967,10 @@
         <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
 
     <div data-view-component="true" class="flash-close">
-  <button id="icon-button-56a09c15-8149-405b-8a1c-308bfd4d8491" aria-labelledby="tooltip-2cc705db-c86b-4f23-b6d0-94d3a721689d" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium js-flash-close">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+  <button id="icon-button-128ce368-e665-4304-a50c-a2a84d63daaf" aria-labelledby="tooltip-d63a90e9-f120-4118-a4ea-b70ac93784e0" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium js-flash-close">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
-</button>  <tool-tip id="tooltip-2cc705db-c86b-4f23-b6d0-94d3a721689d" for="icon-button-56a09c15-8149-405b-8a1c-308bfd4d8491" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+</button>  <tool-tip id="tooltip-d63a90e9-f120-4118-a4ea-b70ac93784e0" for="icon-button-128ce368-e665-4304-a50c-a2a84d63daaf" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
 </div>
 
   
