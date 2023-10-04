@@ -1,0 +1,38 @@
+name: Python CI with Poetry
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      id:setup-python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+
+    - name: Install Poetry #will want to cache as in snok/install-poetry readme in the future
+      uses: snok/install-poetry@v1
+      with:
+        version: 1.1.12
+        #virtualenvs-create: true
+        #virtualenvs-in-project: true
+
+    - name: Install dependencies
+      run: poetry install --no-interaction
+      #working-directory: ./pyproject.toml
+
+    - name: Run tests
+      run: poetry run pytest -v --cov=calculator
+      #working-directory: ./your_project_directory # Replace with your project's directory
