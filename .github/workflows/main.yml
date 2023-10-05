@@ -34,5 +34,5 @@ jobs:
       #working-directory: ./pyproject.toml
 
     - name: Run tests
-      run: poetry run pytest -v --cov=calculator
+      run: poetry run pytest
       #working-directory: ./your_project_directory # Replace with your project's directory
