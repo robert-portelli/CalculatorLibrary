@@ -33,8 +33,11 @@ jobs:
       run: poetry install --no-interaction
       #working-directory: ./pyproject.toml
 
-    - name: Run tests
+    - name: Run tests and generate coverage report
       run: |
-        poetry run pytest -v
-        coverage report
-      #working-directory: ./your_project_directory # Replace with your project's directory
+        poetry run pytest -v --cov=./ --cov-report=xml
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
